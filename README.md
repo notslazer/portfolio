@@ -15,7 +15,6 @@ A modern, high-performance personal portfolio and interactive web application bu
 
 - **Interactive Canvas Background:** A high-performance, 60fps particle network background driven by HTML5 Canvas and GSAP's optimized ticker, bypassing the React virtual DOM for smooth rendering.
 - **Strictly Typed:** Full TypeScript integration with custom interfaces for all components and animation logic.
-- **Reaction Time Leaderboard (Planned):** A built-in web application to test user reaction times, featuring user authentication and a backend-driven global leaderboard.
 
 ## 🚀 Getting Started (Local Development)
 
