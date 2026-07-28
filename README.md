@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Personal Portfolio (Not Completed)
 
 A modern, high-performance personal portfolio and interactive web application built with Next.js and TypeScript.
 
