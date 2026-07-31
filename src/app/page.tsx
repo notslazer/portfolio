@@ -11,7 +11,7 @@ export default function Home() {
           Harshadh Jeyaprakash
         </h1>
         <p className="text-slate-300 text-lg md:text-xl">
-          Full Stack Developer 
+          Full Stack Developer | Data Scientist | AI Enthusiast
         </p>
       </div>
       
