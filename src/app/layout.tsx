@@ -32,8 +32,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${bricolage.variable} ${sora.variable} ${jetbrains.variable}`}>
-      <body className="font-body bg-slate-950 text-white antialiased">
+    <html lang="en" className={`${bricolage.variable} ${sora.variable} ${jetbrains.variable}`} suppressHydrationWarning>
+      <body className="font-body bg-slate-950 text-white antialiased" suppressHydrationWarning>
         <Navbar />
         {children}
       </body>
