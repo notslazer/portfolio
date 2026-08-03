@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio (Not Completed)
 
-## Getting Started
+A modern, high-performance personal portfolio and interactive web application built with Next.js and TypeScript.
 
-First, run the development server:
+## 🛠 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** GSAP (`@gsap/react`) & Framer Motion
+- **CI/CD:** GitHub Actions
+- **Deployment:** Vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Current & Planned Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Interactive Canvas Background:** A high-performance, 60fps particle network background driven by HTML5 Canvas and GSAP's optimized ticker, bypassing the React virtual DOM for smooth rendering.
+- **Strictly Typed:** Full TypeScript integration with custom interfaces for all components and animation logic.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started (Local Development)
 
-## Learn More
+To run this project locally, ensure you have Node.js (v22.x or later) installed.
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repo-url>
+   cd portfolio
+   ```
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3. **Start the development server:**
+    ```bash
+    npm run dev
+    ``` 
+    Open http://localhost:3000 in your browser to view the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌿 Git Workflow & CI/CD
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project strictly follows a feature-branch workflow to maintain the stability of the `main` branch. 
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Branching:** All new features, animations, or bug fixes must be developed on a dedicated feature branch (e.g., `feat/hero-section`, `bugfix/particle-type-error`).
+- **Continuous Integration:** Whenever a Pull Request is opened against the `main` branch, our GitHub Actions pipeline automatically triggers.
+- **Required Checks:** The CI pipeline will run `npm run lint`, `npx tsc --noEmit` (Type Checking), and `npm run build`. All checks must pass before the PR can be merged.
