@@ -50,7 +50,7 @@ export default function About() {
               Hi, I&apos;m Harshadh, a B.Tech Computer Science student at VIT Chennai. I specialize as a Full Stack Developer and Data Scientist, blending robust data analysis with modern web experiences. 
             </p>
             <p className="font-body text-slate-300 text-lg leading-relaxed">
-              Whether I am contributing to open-source programs like GirlScript Summer of Code, diving into artificial intelligence and drone tech during the Def-Space internship, or building high-performance web applications, I am always eager to push the boundaries of what&apos;s possible.
+              As a proud contributor and mentee in open-source communities, I love collaborating on public codebases and am constantly learning to tackle the next big challenge.
             </p>
           </section>
 
