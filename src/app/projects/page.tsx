@@ -64,8 +64,8 @@ export default function Projects() {
               {/* Project Image Container */}
               <div className="relative h-48 w-full bg-slate-800/50 overflow-hidden border-b border-white/10">
                 {/* Fallback gradient placeholder */}
-                <div className="absolute inset-0 bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center">
-                  <span className="font-mono text-slate-500 text-sm">Image Placeholder</span>
+                <div className="absolute inset-0 bg-linear-to-br from-slate-700 to-slate-900 flex items-center justify-center">
+                  <span className="font-mono text-slate-500 text-sm">Img</span>
                 </div>
 
                 {/* Render project image if string path exists */}

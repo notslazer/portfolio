@@ -44,7 +44,7 @@ export const projectsData: Project[] = [
     id: 4,
     title: "Customer Retention & Churn Analysis",
     description: "An advanced data analytics project that leverages historical customer data to predict churn and identify retention strategies. Utilizing machine learning algorithms, the project provides actionable insights for businesses to enhance customer loyalty and reduce attrition rates.",
-    image: "/images/customer-retention.jpg",
+    image: "/images/customer-retention.png",
     tags: ["Python", "Pandas", "Scikit-learn", "Data Visualization", "Machine Learning"],
     githubUrl: "https://github.com/notslazer/customer-retention-analytics",
     demoUrl: "",

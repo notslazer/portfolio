@@ -2,6 +2,9 @@
 
 A modern, high-performance personal portfolio and interactive web application built with Next.js and TypeScript.
 
+## 🌐 Live Deployment
+[Click Here](https://harshadh.vercel.app/)
+
 ## 🛠 Tech Stack
 
 - **Framework:** Next.js (App Router)
@@ -45,6 +48,12 @@ This project follows a feature-branch workflow to keep `main` stable.
 - **Continuous Integration:** Pull requests opened against `main` automatically trigger the GitHub Actions pipeline.
 - **Required Checks:** The CI pipeline runs `npm run lint`, `npx tsc --noEmit`, and `npm run build` before merging.
 
-## 📄 License
+## License & Copyright
 
-This repository does not currently include a license file.
+Copyright (c) 2026 Harshadh Jeyaprakash. All rights reserved.
+
+The source code in this repository is intended solely for demonstration and review purposes. 
+
+* **Code & Architecture:** You may view, fork, and reference the structural code for educational purposes. You may not host an identical or heavily copied version of this website publicly without significant modification.
+* **Content & Media:** All personal text, resume data, logos, project images, and case studies are the exclusive intellectual property of the author. Copying or redistribution of these assets is strictly prohibited.
+
